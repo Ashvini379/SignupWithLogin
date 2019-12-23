@@ -38,6 +38,8 @@ namespace SignupWithLogin.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<SignupWithLogin.Models.Employee> Employees { get; set; }
     }
 }
 
